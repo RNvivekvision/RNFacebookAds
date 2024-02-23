@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, View, Button } from 'react-native';
 import { InterstitialAdManager } from 'react-native-fbads';
-import { InterstitialAdPlacementId } from '../Variables';
+import { interstitialAdId } from '../Variables';
 
 export default function InterstitialAd() {
   const showInterstitialAd = async () => {
     try {
-      await InterstitialAdManager.showAd(InterstitialAdPlacementId);
+      await InterstitialAdManager.showAd(interstitialAdId);
     } catch (e) {
       console.log('Error Interstitial ads -> ', e);
     }

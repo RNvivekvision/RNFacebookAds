@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import { AdSettings } from 'react-native-fbads';
 
 // import Main from './src';
@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setState(p => ({ ...p, isLoading: false }));
-    }, 1000);
+    }, 10);
   }, []);
 
   useEffect(() => {
@@ -45,11 +45,11 @@ const App = () => {
   }
 
   return (
-    <View>
+    <ScrollView>
       <NativeAd />
       <BannerAd />
       <InterstitialAd />
-    </View>
+    </ScrollView>
   );
 };
 

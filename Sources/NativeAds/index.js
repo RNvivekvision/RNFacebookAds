@@ -1,10 +1,10 @@
 import React from 'react';
 import { NativeAdsManager } from 'react-native-fbads';
-import { nativeAdPlacementId } from '../Variables';
+import { nativeAdId } from '../Variables';
 import NativeAdView from './NativeAdView';
 
 const NativeAd = () => {
-  const adsManager = new NativeAdsManager(nativeAdPlacementId, 50);
+  const adsManager = new NativeAdsManager(nativeAdId, 50);
 
   return (
     <NativeAdView adsManager={adsManager} adChoicePosition="bottomRight" />

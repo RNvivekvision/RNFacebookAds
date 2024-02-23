@@ -12,7 +12,7 @@ const { width } = Dimensions.get('window');
 const NativeAdView = props => {
   return (
     <View style={{ flexDirection: 'column', borderWidth: 1 }}>
-      <MediaView style={{ width: '100%', height: 150 }} />
+      <MediaView style={{ width: '100%', height: 200 }} />
 
       <View style={{ flexDirection: 'row', paddingVertical: 10 }}>
         <AdIconView style={{ width: '25%', height: 80 }} />
