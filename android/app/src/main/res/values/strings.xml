@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RNFacebookAds</string>
+    <string name="facebook_app_id">1389868308291342</string>
+    <string name="facebook_client_token">a31202514e815ca08c4b48f8e65b3f81</string>
+</resources>
