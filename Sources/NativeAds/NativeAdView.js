@@ -1,13 +1,11 @@
 import React from 'react';
-import { Text, View, Dimensions } from 'react-native';
+import { Text, View } from 'react-native';
 import {
   AdIconView,
   TriggerableView,
   MediaView,
   withNativeAd,
 } from 'react-native-fbads';
-
-const { width } = Dimensions.get('window');
 
 const NativeAdView = props => {
   return (
