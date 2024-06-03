@@ -37,10 +37,6 @@
   }
 
   return NO;
-  
-//  return [[FBSDKApplicationDelegate sharedInstance]application:app
-//                                                      openURL:url
-//                                                      options:options];
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
